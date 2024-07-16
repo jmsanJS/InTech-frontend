@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "Revalia";
+  src: url("/fonts/Revalia-Regular.ttf");
+}
+
+.header {
+  border-bottom: 2px #dc5f00 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 42px;
+  font-family: "Revalia";
+  text-shadow: 2px 2px 1px #ccc;
+  cursor: pointer;
+}
+
+.logoContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.linkContainer {
+  background-color: #dc5f00;
+  width: 100vw;
+  padding: 16px 40px 10px 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.userSection {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.iconContainer:hover, .eyeIcon:hover {
+  opacity: 0.6;
+}
+
+.date {
+  width: 20vw;
+  text-align: left;
+}
+
+.link {
+  margin-right: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.link:hover {
+  font-weight: 600;
+  color: #fbf1e6;
+}
+
+.registerContainer {
+  display: flex;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.registeredContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerSection {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoutSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20vw;
+}
+
+.welcomeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.welcomeMsg {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.welcomeContainer button {
+  padding: 0;
+  font-size: 12px;
+  margin-bottom: -5px;
+  text-align: right;
+}
+
+.eyeIcon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.headerIcons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20vw;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  cursor: pointer;
+}
+
+.iconText {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.gtcContainer {
+  text-align: center;
+  padding: 0 20px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.checkboxText {
+  font-size: 12px;
+  margin-left: 5px;
+  margin-bottom: 6px;
+}
+
+.registerSection .input {
+  border: none;
+  border-bottom: 1px lightgray solid;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.error {
+  color: crimson;
+  margin: -15px 0 8px 0;
+  font-size: 12px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1024px) {
+  .logoContainer {
+    padding: 0px 30px;
+  }
+  .date {
+    font-size: 14px;
+  }
+  .iconText {
+    display: none;
+  }
+  .linkContainer {
+    padding: 16px 30px 10px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    width: 70vw;
+    font-size: 32px;
+  }
+  .logoContainer {
+    padding: 0px 20px;
+  }
+  .date {
+    font-size: 12px;
+    width: 15vw;
+  }
+  .headerIcons {
+    width: 15vw;
+  }
+  .iconText {
+    display: none;
+  }
+  .contactIcon,
+  .hideIcon {
+    display: none;
+  }
+  .modalContainer {
+    width: 100px;
+  }
+  .registerContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .signUpForm {
+    padding-top: 10px;
+    border-top: .5px solid #dc5f00;
+  }
+  .signInForm {
+    margin-bottom: 20px;
+  }
+  .welcomeMsg {
+    display: none;
+  }
+  .linkContainer {
+    padding: 16px 20px 10px 20px;
+  }
+}
+
+@media screen and (max-width : 480px) {
+  .logoContainer {
+    padding: 10px
+  }
+  .title {
+    font-size: 24px;
+  }
+  .date {
+    font-size: 11px;
+  }
+  .link {
+    margin-right: 0;
+  }
+  .linkContainer {
+    padding: 16px 10px 10px 10px;
+    justify-content: space-between;
+  }
+}

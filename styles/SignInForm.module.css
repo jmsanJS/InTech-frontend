@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Revalia";
+  src: url("/fonts/Revalia-Regular.ttf");
+}
+
+.registerSection {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registerSection .input {
+  border: none;
+  border-bottom: 1px lightgray solid;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.error {
+  color: crimson;
+  margin: -15px 0 8px 0;
+  font-size: 12px;
+}
+
+.signInForm {
+  margin-bottom: 20px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+  .signInForm {
+    margin-bottom: 20px;
+  }
+}

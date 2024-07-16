@@ -1,0 +1,21 @@
+.contentContainer {
+  background-color: #fbf1e6;
+}
+
+.articlesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  margin-left: 25px;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
