@@ -7,27 +7,18 @@ const PrivacyPolicy = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Privacy Policy</h1>
         <p>
-          At InTech, we value your privacy and are committed to protecting
-          your personal information. This Privacy Policy outlines how we
-          collect, use, and safeguard your data when you use our Service. By
-          accessing and using Tech, you agree to the terms outlined in this
-          policy.
+          At InTech, we value your privacy and are committed to protecting your
+          personal information. This Privacy Policy outlines how we collect,
+          use, and safeguard your data when you use our Service. By accessing
+          and using Tech, you agree to the terms outlined in this policy.
         </p>
 
         <h2>Information We Collect</h2>
-        <p>We may collect the following types of information:</p>
-        <ul>
-          <li>
-            <strong>Personal Information:</strong> When you create an account,
-            we collect your email address and a password to provide you with
-            personalized services such as saving articles.
-          </li>
-          <li>
-            <strong>Usage Data:</strong> We collect information on how you
-            interact with our Service, such as the pages you visit and the
-            articles you save.
-          </li>
-        </ul>
+        <p>
+          When you create an account, we collect your name, email address and a
+          password to provide you with personalized services such as bookmarking
+          articles.
+        </p>
 
         <h2>Use of Information</h2>
         <p>We use the information we collect for the following purposes:</p>
@@ -132,8 +123,8 @@ const PrivacyPolicy = () => {
         </p>
 
         <p>
-          Thank you for trusting InTech with your personal information. We
-          are committed to ensuring your data is protected and used responsibly.
+          Thank you for trusting InTech with your personal information. We are
+          committed to ensuring your data is protected and used responsibly.
         </p>
       </div>
     </div>

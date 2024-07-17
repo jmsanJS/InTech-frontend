@@ -16,7 +16,7 @@ function Bookmarks() {
   } else if (user.token) {
     articles = <p>No articles to display</p>;
   } else {
-    articles = <p>Sign in to see your bookmarked articles</p>;
+    articles = <p>Sign in to be able to bookmark articles</p>;
   }
 
   return (

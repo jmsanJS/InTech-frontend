@@ -17,6 +17,7 @@ function SearchBar(props) {
   const dispatch = useDispatch();
 
   const options = [
+    { value: "wired,the-verge,techcrunch,ars-technica,new-scientist,the-next-web", label: "All Sources"},
     { value: "wired", label: "Wired" },
     { value: "the-verge", label: "The Verge" },
     { value: "techcrunch", label: "TechCrunch" },
