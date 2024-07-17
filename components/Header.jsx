@@ -78,7 +78,7 @@ function Header() {
       .then((data) => {
         if (data.result) {
           dispatch(logout());
-          alert(data.message);
+          alert("Your account has been successfully deleted");
         } else {
           alert(data.error);
         }

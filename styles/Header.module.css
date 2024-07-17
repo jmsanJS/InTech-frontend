@@ -187,15 +187,22 @@
   }
   .date {
     font-size: 12px;
-    width: 15vw;
+    width: 20vw;
   }
   .headerIcons {
-    width: 15vw;
+    width: 20vw;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+  .userSection {
+    margin-bottom: 5px;
+  }
+  .contactIcon {
+    margin-top: 5px;
   }
   .iconText {
     display: none;
   }
-  .contactIcon,
   .hideIcon {
     display: none;
   }
@@ -228,10 +235,11 @@
     padding: 10px
   }
   .title {
-    font-size: 24px;
+    font-size: 30px;
+    margin: 0;
   }
   .date {
-    font-size: 11px;
+    font-size: 12px;
   }
   .link {
     margin-right: 0;
