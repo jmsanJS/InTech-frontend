@@ -1,8 +1,8 @@
 # InTech Frontend
-This repository contains the frontend component of the InTech application. 
-__InTech__ is a search engine specifically designed for technology articles. 
-The platform indexes articles from trusted sources and directs users to the original content with a single click. 
-__InTech__ does not produce or host any articles; it serves solely as a gateway to high-quality technology journalism.
+This repository contains the frontend component of the InTech application.  
+__InTech__ is a search engine specifically designed for technology articles.  
+The platform indexes articles from trusted sources and directs users to the original content with a single click.  
+__InTech__ does not produce or host any articles; it serves solely as a gateway to high-quality technology journalism.  
 
 ## InTech Demo
 
